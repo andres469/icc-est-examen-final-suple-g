@@ -1,3 +1,8 @@
+import java.util.Arrays;
+import java.util.List;
+
+import Modelo.Producto;
+import Controller.ProductoController;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,4 +42,9 @@ public class Main {
         );
 
     }
+    ProductoController f=new ProductoController();
+    f.ordenarProducto();
+    f.clasificarPorUnicidad();
+    f.obtenerDestacados();
+
 }
